@@ -1,0 +1,51 @@
+# Entorno virtual (raíz del proyecto)
+.venv/
+venv/
+env/
+ENV/
+
+# Python compilado
+*.py[cod]
+__pycache__/
+*.so
+
+# Variables de entorno (credenciales)
+.env
+.env.*
+
+# Base de datos local
+db.sqlite3
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Salesforce DX
+.sfdx/
+
+# Django static files
+staticfiles/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Claude Code (config personal)
+.claude/
