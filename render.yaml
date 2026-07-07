@@ -12,7 +12,7 @@ services:
     startCommand: |
       cd Proyecto_CorpoDG_Backend &&
       gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
-    healthCheckPath: /api/destinos/
+    healthCheckPath: /api/health/
     envVars:
       - key: PYTHON_VERSION
         value: "3.13.3"
