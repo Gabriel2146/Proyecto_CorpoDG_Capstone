@@ -10,7 +10,8 @@
 | 14 tests e2e (chatbot + responsive) | ✅ |
 | Reporte HTML Playwright generado | ✅ |
 | CI/CD pipelines (`.github/workflows/ci.yml`) | ✅ **Pasando** |
-| CI sube reporte como artifact (siempre) | ✅ |
+| CI frontend sube reporte HTML como artifact | ✅ |
+| CI backend sube reporte de tests como artifact | ✅ |
 | Repos en GitHub con commits | ✅ Pusheados a `feat/gabriel/chatbot_v2` |
 | Credenciales saneadas (placeholders) | ✅ |
 | Diseño responsive (320/768/1280px) | ✅ |
@@ -24,7 +25,8 @@
 | PostgreSQL en Render | ✅ `corpodg-db-staging` |
 | Seed de datos ejecutado | ✅ Admin + datos Ecuador |
 | Informe profesional RESULTADOS_TEST.md | ✅ Creado |
-| Capturas reales del sistema | ✅ `evidencia_screenshots/` (11 capturas) |
+| Reportes separados back/front | ✅ `reportes/REPORTE_BACKEND.md`, `reportes/REPORTE_FRONTEND.md` |
+| Capturas reales del sistema | ✅ `reportes/capturas/frontend/` (9 capturas) |
 | EVIDENCIA.md actualizado con deploy | ✅ |
 ## ❌ Lo que FALTA para entregar
 

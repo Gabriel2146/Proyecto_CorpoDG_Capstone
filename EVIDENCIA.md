@@ -168,15 +168,16 @@ Cubierto por 2 tests unitarios:
 
 ---
 
-## 8. Informe de Resultados Profesional
+## 8. Reportes Organizados
 
-Ver `RESULTADOS_TEST.md` para el informe completo con:
-- ✅ 78 tests unitarios backend
-- ✅ 14 tests E2E frontend (Playwright)
-- ✅ Prueba de carga 100 usuarios — 0% fallos
-- ✅ Pruebas de sistema Sabre (CP-01/05/07)
-- ✅ Capturas reales del sistema (no de GitHub)
-- ✅ Reporte HTML interactivo de Playwright
+Los informes de resultados están organizados en la carpeta `reportes/`:
+
+| Archivo | Descripción |
+|---------|-------------|
+| `reportes/REPORTE_BACKEND.md` | Tests unitarios backend + Sabre + CI |
+| `reportes/REPORTE_FRONTEND.md` | Tests E2E frontend + responsive + chatbot |
+| `reportes/REPORTE_SISTEMA.md` | Prueba de carga + arquitectura + resumen |
+| `reportes/capturas/frontend/` | 9 capturas reales del sistema en 320/768/1280px |
 
 ---
 
