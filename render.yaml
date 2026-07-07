@@ -1,19 +1,14 @@
 services:
-  # ============================================================
-  # Backend - Django/DRF
-  # ============================================================
   - type: web
     name: corpodg-backend-staging
     runtime: python
     plan: free
     autoDeploy: true
     buildCommand: >
-      git submodule update --init --recursive 2>/dev/null || echo "submodules not accessible (private repos)" &&
       cd Proyecto_CorpoDG_Backend && pip install -r requirements.txt &&
       python manage.py migrate --run-syncdb
     startCommand: cd Proyecto_CorpoDG_Backend && gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
     healthCheckPath: /api/destinos/
-
     envVars:
       - key: PYTHON_VERSION
         value: "3.13.3"
@@ -80,20 +75,6 @@ services:
       - key: FRONTEND_BOOKING_CANCEL_URL
         value: "https://corpodg-frontend-staging.onrender.com/reserva/cancelada"
 
-  # ============================================================
-  # Frontend - Vue 3/Vite (static site - create via Dashboard)
-  # ============================================================
-  # NOTA: Render Blueprint no soporta static_site.
-  # Crearlo manualmente en el Dashboard:
-  # 1. New Static Site -> conectar repositorio
-  # 2. Branch: feat/gabriel/chatbot_v2
-  # 3. Build: cd Proyecto_CorpoDG_Frontend && npm install && npm run build
-  # 4. Publish: Proyecto_CorpoDG_Frontend/dist
-  # 5. Env: VITE_API_URL = https://corpodg-backend-staging.onrender.com/api
-
-# ============================================================
-# Database - PostgreSQL 16 (free tier)
-# ============================================================
 databases:
   - name: corpodg-db-staging
     databaseName: corpodg_staging
