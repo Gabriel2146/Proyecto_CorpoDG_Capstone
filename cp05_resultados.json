@@ -1,0 +1,2118 @@
+{
+  "revalidacion": {
+    "disponible": true,
+    "mensaje": "El vuelo sigue disponible",
+    "precio_total": 104.93,
+    "precio_base": 59.0,
+    "impuestos": 45.93,
+    "moneda": "USD",
+    "ultima_fecha_compra": "2026-07-07",
+    "ultima_hora_compra": "21:45",
+    "aerolinea_validadora": "LA"
+  },
+  "seatmap": {
+    "offer_id": "SIM-921354833187",
+    "expira": "2026-07-07T16:45:06Z",
+    "mapas": [
+      {
+        "segmento_id_sabre": "SEG-a451f7ba-1d37-4e28-a06f-e5ff3d098932",
+        "segmento_indice": 1,
+        "vuelo": "LA1419",
+        "origen": "UIO",
+        "destino": "GYE",
+        "cabinas": [
+          {
+            "codigo": "Y",
+            "nombre": "Economy Class",
+            "fila_inicial": 15,
+            "fila_final": 34,
+            "columnas": [
+              {
+                "letra": "A",
+                "posiciones": [
+                  "WINDOW"
+                ]
+              },
+              {
+                "letra": "B",
+                "posiciones": [
+                  "CENTER"
+                ]
+              },
+              {
+                "letra": "C",
+                "posiciones": [
+                  "AISLE"
+                ]
+              },
+              {
+                "letra": "D",
+                "posiciones": [
+                  "AISLE"
+                ]
+              },
+              {
+                "letra": "E",
+                "posiciones": [
+                  "CENTER"
+                ]
+              },
+              {
+                "letra": "F",
+                "posiciones": [
+                  "WINDOW"
+                ]
+              }
+            ],
+            "filas": [
+              {
+                "numero": 15,
+                "caracteristicas": [
+                  "Bulkhead"
+                ],
+                "asientos": [
+                  {
+                    "id": "15A",
+                    "columna": "A",
+                    "fila": 15,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 33.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-15A"
+                    }
+                  },
+                  {
+                    "id": "15B",
+                    "columna": "B",
+                    "fila": 15,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 25.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-15B"
+                    }
+                  },
+                  {
+                    "id": "15C",
+                    "columna": "C",
+                    "fila": 15,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 31.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-15C"
+                    }
+                  },
+                  {
+                    "id": "15D",
+                    "columna": "D",
+                    "fila": 15,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 31.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-15D"
+                    }
+                  },
+                  {
+                    "id": "15E",
+                    "columna": "E",
+                    "fila": 15,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 25.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-15E"
+                    }
+                  },
+                  {
+                    "id": "15F",
+                    "columna": "F",
+                    "fila": 15,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Bulkhead",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 16,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "16A",
+                    "columna": "A",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-16A"
+                    }
+                  },
+                  {
+                    "id": "16B",
+                    "columna": "B",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "16C",
+                    "columna": "C",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-16C"
+                    }
+                  },
+                  {
+                    "id": "16D",
+                    "columna": "D",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-16D"
+                    }
+                  },
+                  {
+                    "id": "16E",
+                    "columna": "E",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "16F",
+                    "columna": "F",
+                    "fila": 16,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-16F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 17,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "17A",
+                    "columna": "A",
+                    "fila": 17,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "17B",
+                    "columna": "B",
+                    "fila": 17,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "17C",
+                    "columna": "C",
+                    "fila": 17,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "17D",
+                    "columna": "D",
+                    "fila": 17,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-17D"
+                    }
+                  },
+                  {
+                    "id": "17E",
+                    "columna": "E",
+                    "fila": 17,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "17F",
+                    "columna": "F",
+                    "fila": 17,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 18,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "18A",
+                    "columna": "A",
+                    "fila": 18,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "18B",
+                    "columna": "B",
+                    "fila": 18,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "18C",
+                    "columna": "C",
+                    "fila": 18,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-18C"
+                    }
+                  },
+                  {
+                    "id": "18D",
+                    "columna": "D",
+                    "fila": 18,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-18D"
+                    }
+                  },
+                  {
+                    "id": "18E",
+                    "columna": "E",
+                    "fila": 18,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "18F",
+                    "columna": "F",
+                    "fila": 18,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-18F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 19,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "19A",
+                    "columna": "A",
+                    "fila": 19,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-19A"
+                    }
+                  },
+                  {
+                    "id": "19B",
+                    "columna": "B",
+                    "fila": 19,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "19C",
+                    "columna": "C",
+                    "fila": 19,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "19D",
+                    "columna": "D",
+                    "fila": 19,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-19D"
+                    }
+                  },
+                  {
+                    "id": "19E",
+                    "columna": "E",
+                    "fila": 19,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "19F",
+                    "columna": "F",
+                    "fila": 19,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-19F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 20,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "20A",
+                    "columna": "A",
+                    "fila": 20,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "20B",
+                    "columna": "B",
+                    "fila": 20,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "20C",
+                    "columna": "C",
+                    "fila": 20,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-20C"
+                    }
+                  },
+                  {
+                    "id": "20D",
+                    "columna": "D",
+                    "fila": 20,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "20E",
+                    "columna": "E",
+                    "fila": 20,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "20F",
+                    "columna": "F",
+                    "fila": 20,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-20F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 21,
+                "caracteristicas": [
+                  "Exit row"
+                ],
+                "asientos": [
+                  {
+                    "id": "21A",
+                    "columna": "A",
+                    "fila": 21,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 33.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-21A"
+                    }
+                  },
+                  {
+                    "id": "21B",
+                    "columna": "B",
+                    "fila": 21,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "21C",
+                    "columna": "C",
+                    "fila": 21,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 31.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-21C"
+                    }
+                  },
+                  {
+                    "id": "21D",
+                    "columna": "D",
+                    "fila": 21,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 31.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-21D"
+                    }
+                  },
+                  {
+                    "id": "21E",
+                    "columna": "E",
+                    "fila": 21,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 25.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-21E"
+                    }
+                  },
+                  {
+                    "id": "21F",
+                    "columna": "F",
+                    "fila": 21,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 22,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "22A",
+                    "columna": "A",
+                    "fila": 22,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "22B",
+                    "columna": "B",
+                    "fila": 22,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "22C",
+                    "columna": "C",
+                    "fila": 22,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-22C"
+                    }
+                  },
+                  {
+                    "id": "22D",
+                    "columna": "D",
+                    "fila": 22,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-22D"
+                    }
+                  },
+                  {
+                    "id": "22E",
+                    "columna": "E",
+                    "fila": 22,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "22F",
+                    "columna": "F",
+                    "fila": 22,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-22F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 23,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "23A",
+                    "columna": "A",
+                    "fila": 23,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-23A"
+                    }
+                  },
+                  {
+                    "id": "23B",
+                    "columna": "B",
+                    "fila": 23,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "23C",
+                    "columna": "C",
+                    "fila": 23,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-23C"
+                    }
+                  },
+                  {
+                    "id": "23D",
+                    "columna": "D",
+                    "fila": 23,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "23E",
+                    "columna": "E",
+                    "fila": 23,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "23F",
+                    "columna": "F",
+                    "fila": 23,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 24,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "24A",
+                    "columna": "A",
+                    "fila": 24,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "24B",
+                    "columna": "B",
+                    "fila": 24,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "24C",
+                    "columna": "C",
+                    "fila": 24,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "24D",
+                    "columna": "D",
+                    "fila": 24,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-24D"
+                    }
+                  },
+                  {
+                    "id": "24E",
+                    "columna": "E",
+                    "fila": 24,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "24F",
+                    "columna": "F",
+                    "fila": 24,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-24F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 25,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "25A",
+                    "columna": "A",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-25A"
+                    }
+                  },
+                  {
+                    "id": "25B",
+                    "columna": "B",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "25C",
+                    "columna": "C",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-25C"
+                    }
+                  },
+                  {
+                    "id": "25D",
+                    "columna": "D",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-25D"
+                    }
+                  },
+                  {
+                    "id": "25E",
+                    "columna": "E",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "25F",
+                    "columna": "F",
+                    "fila": 25,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-25F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 26,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "26A",
+                    "columna": "A",
+                    "fila": 26,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-26A"
+                    }
+                  },
+                  {
+                    "id": "26B",
+                    "columna": "B",
+                    "fila": 26,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "26C",
+                    "columna": "C",
+                    "fila": 26,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-26C"
+                    }
+                  },
+                  {
+                    "id": "26D",
+                    "columna": "D",
+                    "fila": 26,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-26D"
+                    }
+                  },
+                  {
+                    "id": "26E",
+                    "columna": "E",
+                    "fila": 26,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "26F",
+                    "columna": "F",
+                    "fila": 26,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-26F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 27,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "27A",
+                    "columna": "A",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-27A"
+                    }
+                  },
+                  {
+                    "id": "27B",
+                    "columna": "B",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "27C",
+                    "columna": "C",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-27C"
+                    }
+                  },
+                  {
+                    "id": "27D",
+                    "columna": "D",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-27D"
+                    }
+                  },
+                  {
+                    "id": "27E",
+                    "columna": "E",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "27F",
+                    "columna": "F",
+                    "fila": 27,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-27F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 28,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "28A",
+                    "columna": "A",
+                    "fila": 28,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-28A"
+                    }
+                  },
+                  {
+                    "id": "28B",
+                    "columna": "B",
+                    "fila": 28,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "28C",
+                    "columna": "C",
+                    "fila": 28,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "28D",
+                    "columna": "D",
+                    "fila": 28,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-28D"
+                    }
+                  },
+                  {
+                    "id": "28E",
+                    "columna": "E",
+                    "fila": 28,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "28F",
+                    "columna": "F",
+                    "fila": 28,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-28F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 29,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "29A",
+                    "columna": "A",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-29A"
+                    }
+                  },
+                  {
+                    "id": "29B",
+                    "columna": "B",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "29C",
+                    "columna": "C",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-29C"
+                    }
+                  },
+                  {
+                    "id": "29D",
+                    "columna": "D",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-29D"
+                    }
+                  },
+                  {
+                    "id": "29E",
+                    "columna": "E",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "29F",
+                    "columna": "F",
+                    "fila": 29,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-29F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 30,
+                "caracteristicas": [
+                  "Exit row"
+                ],
+                "asientos": [
+                  {
+                    "id": "30A",
+                    "columna": "A",
+                    "fila": 30,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 33.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-30A"
+                    }
+                  },
+                  {
+                    "id": "30B",
+                    "columna": "B",
+                    "fila": 30,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 25.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-30B"
+                    }
+                  },
+                  {
+                    "id": "30C",
+                    "columna": "C",
+                    "fila": 30,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "30D",
+                    "columna": "D",
+                    "fila": 30,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 31.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-30D"
+                    }
+                  },
+                  {
+                    "id": "30E",
+                    "columna": "E",
+                    "fila": 30,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Extra legroom seat",
+                    "precio": {
+                      "monto": 25.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-30E"
+                    }
+                  },
+                  {
+                    "id": "30F",
+                    "columna": "F",
+                    "fila": 30,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Exit row",
+                      "Extra legroom",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 31,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "31A",
+                    "columna": "A",
+                    "fila": 31,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-31A"
+                    }
+                  },
+                  {
+                    "id": "31B",
+                    "columna": "B",
+                    "fila": 31,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "31C",
+                    "columna": "C",
+                    "fila": 31,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-31C"
+                    }
+                  },
+                  {
+                    "id": "31D",
+                    "columna": "D",
+                    "fila": 31,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-31D"
+                    }
+                  },
+                  {
+                    "id": "31E",
+                    "columna": "E",
+                    "fila": 31,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "31F",
+                    "columna": "F",
+                    "fila": 31,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 32,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "32A",
+                    "columna": "A",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-32A"
+                    }
+                  },
+                  {
+                    "id": "32B",
+                    "columna": "B",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "32C",
+                    "columna": "C",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-32C"
+                    }
+                  },
+                  {
+                    "id": "32D",
+                    "columna": "D",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-32D"
+                    }
+                  },
+                  {
+                    "id": "32E",
+                    "columna": "E",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "32F",
+                    "columna": "F",
+                    "fila": 32,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-32F"
+                    }
+                  }
+                ]
+              },
+              {
+                "numero": 33,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "33A",
+                    "columna": "A",
+                    "fila": 33,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-33A"
+                    }
+                  },
+                  {
+                    "id": "33B",
+                    "columna": "B",
+                    "fila": 33,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "33C",
+                    "columna": "C",
+                    "fila": 33,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-33C"
+                    }
+                  },
+                  {
+                    "id": "33D",
+                    "columna": "D",
+                    "fila": 33,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "33E",
+                    "columna": "E",
+                    "fila": 33,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "33F",
+                    "columna": "F",
+                    "fila": 33,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  }
+                ]
+              },
+              {
+                "numero": 34,
+                "caracteristicas": [],
+                "asientos": [
+                  {
+                    "id": "34A",
+                    "columna": "A",
+                    "fila": 34,
+                    "disponible": false,
+                    "estado": "T",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "34B",
+                    "columna": "B",
+                    "fila": 34,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "34C",
+                    "columna": "C",
+                    "fila": 34,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-34C"
+                    }
+                  },
+                  {
+                    "id": "34D",
+                    "columna": "D",
+                    "fila": 34,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Aisle",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Standard seat",
+                    "precio": {
+                      "monto": 6.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-34D"
+                    }
+                  },
+                  {
+                    "id": "34E",
+                    "columna": "E",
+                    "fila": 34,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Middle",
+                      "Reclining seat"
+                    ],
+                    "servicio": null,
+                    "precio": null
+                  },
+                  {
+                    "id": "34F",
+                    "columna": "F",
+                    "fila": 34,
+                    "disponible": true,
+                    "estado": "F",
+                    "caracteristicas": [
+                      "Window",
+                      "Reclining seat"
+                    ],
+                    "servicio": "Preferred seat",
+                    "precio": {
+                      "monto": 8.0,
+                      "moneda": "USD",
+                      "purchase_by": "2026-07-07T16:45:06Z",
+                      "offer_item_id": "OITEM-098932-34F"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sandbox": true,
+    "warnings": []
+  }
+}

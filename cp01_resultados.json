@@ -1,0 +1,962 @@
+[
+  {
+    "id": 6,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "6",
+    "id_itinerario_unico": "sabre:6",
+    "precio_total": 104.93,
+    "precio_base": 59.0,
+    "impuestos": 45.93,
+    "moneda": "USD",
+    "aerolinea_validadora": "LA",
+    "ultima_fecha_compra": "2026-07-07",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "O00QP5ZB",
+        "governing_carrier": "LA",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "O",
+        "fare_amount": 50.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "10:10:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "11:03:00-05:00"
+        },
+        "duracion_total": "0h 53m",
+        "duracion_minutos": 53,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "LA1419",
+            "numero_vuelo": 1419,
+            "numero_vuelo_operador": 1419,
+            "clase_servicio": "O",
+            "cabina": "Y",
+            "fare_basis": "O00QP5ZB",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T10:10:00",
+            "fecha_hora_llegada": "2026-08-15T11:03:00",
+            "aerolinea": {
+              "codigo": "LA",
+              "operada_por": "LA",
+              "nombre_compartido": "LATAM AIRLINES ECUADOR",
+              "alianza": null
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "10:10:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "11:03:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 53m",
+            "duracion_minutos": 53,
+            "millas": 169,
+            "avion": "319",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "LA"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 7,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "7",
+    "id_itinerario_unico": "sabre:7",
+    "precio_total": 104.93,
+    "precio_base": 59.0,
+    "impuestos": 45.93,
+    "moneda": "USD",
+    "aerolinea_validadora": "LA",
+    "ultima_fecha_compra": "2026-07-07",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "O00QP5ZB",
+        "governing_carrier": "LA",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "O",
+        "fare_amount": 50.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "11:45:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "12:38:00-05:00"
+        },
+        "duracion_total": "0h 53m",
+        "duracion_minutos": 53,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "LA1417",
+            "numero_vuelo": 1417,
+            "numero_vuelo_operador": 1417,
+            "clase_servicio": "O",
+            "cabina": "Y",
+            "fare_basis": "O00QP5ZB",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T11:45:00",
+            "fecha_hora_llegada": "2026-08-15T12:38:00",
+            "aerolinea": {
+              "codigo": "LA",
+              "operada_por": "LA",
+              "nombre_compartido": "LATAM AIRLINES ECUADOR",
+              "alianza": null
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "11:45:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "12:38:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 53m",
+            "duracion_minutos": 53,
+            "millas": 169,
+            "avion": "319",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "LA"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 8,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "8",
+    "id_itinerario_unico": "sabre:8",
+    "precio_total": 104.93,
+    "precio_base": 59.0,
+    "impuestos": 45.93,
+    "moneda": "USD",
+    "aerolinea_validadora": "LA",
+    "ultima_fecha_compra": "2026-07-07",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "O00QP5ZB",
+        "governing_carrier": "LA",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "O",
+        "fare_amount": 50.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "18:40:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "19:33:00-05:00"
+        },
+        "duracion_total": "0h 53m",
+        "duracion_minutos": 53,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "LA1359",
+            "numero_vuelo": 1359,
+            "numero_vuelo_operador": 1359,
+            "clase_servicio": "O",
+            "cabina": "Y",
+            "fare_basis": "O00QP5ZB",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T18:40:00",
+            "fecha_hora_llegada": "2026-08-15T19:33:00",
+            "aerolinea": {
+              "codigo": "LA",
+              "operada_por": "LA",
+              "nombre_compartido": "LATAM AIRLINES ECUADOR",
+              "alianza": null
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "18:40:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "19:33:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 53m",
+            "duracion_minutos": 53,
+            "millas": 169,
+            "avion": "319",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "LA"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 10,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "10",
+    "id_itinerario_unico": "sabre:10",
+    "precio_total": 106.08,
+    "precio_base": 60.0,
+    "impuestos": 46.08,
+    "moneda": "USD",
+    "aerolinea_validadora": "LA",
+    "ultima_fecha_compra": "2026-07-07",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "Q00QPAZB",
+        "governing_carrier": "LA",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "Q",
+        "fare_amount": 51.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "17:26:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "18:19:00-05:00"
+        },
+        "duracion_total": "0h 53m",
+        "duracion_minutos": 53,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "LA1357",
+            "numero_vuelo": 1357,
+            "numero_vuelo_operador": 1357,
+            "clase_servicio": "Q",
+            "cabina": "Y",
+            "fare_basis": "Q00QPAZB",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T17:26:00",
+            "fecha_hora_llegada": "2026-08-15T18:19:00",
+            "aerolinea": {
+              "codigo": "LA",
+              "operada_por": "LA",
+              "nombre_compartido": "LATAM AIRLINES ECUADOR",
+              "alianza": null
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "17:26:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "18:19:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 53m",
+            "duracion_minutos": 53,
+            "millas": 169,
+            "avion": "319",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "LA"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 9,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "9",
+    "id_itinerario_unico": "sabre:9",
+    "precio_total": 104.93,
+    "precio_base": 59.0,
+    "impuestos": 45.93,
+    "moneda": "USD",
+    "aerolinea_validadora": "LA",
+    "ultima_fecha_compra": "2026-07-07",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "O00QP5ZB",
+        "governing_carrier": "LA",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "O",
+        "fare_amount": 50.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "17:00:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "17:54:00-05:00"
+        },
+        "duracion_total": "0h 54m",
+        "duracion_minutos": 54,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "LA7626",
+            "numero_vuelo": 7626,
+            "numero_vuelo_operador": 7626,
+            "clase_servicio": "O",
+            "cabina": "Y",
+            "fare_basis": "O00QP5ZB",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T17:00:00",
+            "fecha_hora_llegada": "2026-08-15T17:54:00",
+            "aerolinea": {
+              "codigo": "LA",
+              "operada_por": "LA",
+              "nombre_compartido": "LATAM ACADEMY",
+              "alianza": null
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "17:00:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "17:54:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 54m",
+            "duracion_minutos": 54,
+            "millas": 169,
+            "avion": "319",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "LA"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 1,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "1",
+    "id_itinerario_unico": "sabre:1",
+    "precio_total": 92.89,
+    "precio_base": 63.0,
+    "impuestos": 29.89,
+    "moneda": "USD",
+    "aerolinea_validadora": "AV",
+    "ultima_fecha_compra": "2026-07-08",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "SROB0MRI",
+        "governing_carrier": "AV",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "S",
+        "fare_amount": 49.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "09:20:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "10:15:00-05:00"
+        },
+        "duracion_total": "0h 55m",
+        "duracion_minutos": 55,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "AV1630",
+            "numero_vuelo": 1630,
+            "numero_vuelo_operador": 1630,
+            "clase_servicio": "S",
+            "cabina": "Y",
+            "fare_basis": "SROB0MRI",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T09:20:00",
+            "fecha_hora_llegada": "2026-08-15T10:15:00",
+            "aerolinea": {
+              "codigo": "AV",
+              "operada_por": "AV",
+              "nombre_compartido": "/AVIANCA ECUADOR S.A.",
+              "alianza": "*A"
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "09:20:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "10:15:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 55m",
+            "duracion_minutos": 55,
+            "millas": 169,
+            "avion": "320",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "AV"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 2,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "2",
+    "id_itinerario_unico": "sabre:2",
+    "precio_total": 92.89,
+    "precio_base": 63.0,
+    "impuestos": 29.89,
+    "moneda": "USD",
+    "aerolinea_validadora": "AV",
+    "ultima_fecha_compra": "2026-07-08",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "SROB0MRI",
+        "governing_carrier": "AV",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "S",
+        "fare_amount": 49.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "10:05:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "11:00:00-05:00"
+        },
+        "duracion_total": "0h 55m",
+        "duracion_minutos": 55,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "AV1638",
+            "numero_vuelo": 1638,
+            "numero_vuelo_operador": 1638,
+            "clase_servicio": "S",
+            "cabina": "Y",
+            "fare_basis": "SROB0MRI",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T10:05:00",
+            "fecha_hora_llegada": "2026-08-15T11:00:00",
+            "aerolinea": {
+              "codigo": "AV",
+              "operada_por": "AV",
+              "nombre_compartido": "/AVIANCA ECUADOR S.A.",
+              "alianza": "*A"
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "10:05:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "11:00:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 55m",
+            "duracion_minutos": 55,
+            "millas": 169,
+            "avion": "320",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "AV"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 3,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "3",
+    "id_itinerario_unico": "sabre:3",
+    "precio_total": 92.89,
+    "precio_base": 63.0,
+    "impuestos": 29.89,
+    "moneda": "USD",
+    "aerolinea_validadora": "AV",
+    "ultima_fecha_compra": "2026-07-08",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "SROB0MRI",
+        "governing_carrier": "AV",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "S",
+        "fare_amount": 49.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "16:40:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "17:35:00-05:00"
+        },
+        "duracion_total": "0h 55m",
+        "duracion_minutos": 55,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "AV1602",
+            "numero_vuelo": 1602,
+            "numero_vuelo_operador": 1602,
+            "clase_servicio": "S",
+            "cabina": "Y",
+            "fare_basis": "SROB0MRI",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T16:40:00",
+            "fecha_hora_llegada": "2026-08-15T17:35:00",
+            "aerolinea": {
+              "codigo": "AV",
+              "operada_por": "AV",
+              "nombre_compartido": "/AVIANCA ECUADOR S.A.",
+              "alianza": "*A"
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "16:40:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "17:35:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 55m",
+            "duracion_minutos": 55,
+            "millas": 169,
+            "avion": "320",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "AV"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 4,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "4",
+    "id_itinerario_unico": "sabre:4",
+    "precio_total": 92.89,
+    "precio_base": 63.0,
+    "impuestos": 29.89,
+    "moneda": "USD",
+    "aerolinea_validadora": "AV",
+    "ultima_fecha_compra": "2026-07-08",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "SROB0MRI",
+        "governing_carrier": "AV",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "S",
+        "fare_amount": 49.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "18:20:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "19:15:00-05:00"
+        },
+        "duracion_total": "0h 55m",
+        "duracion_minutos": 55,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "AV1662",
+            "numero_vuelo": 1662,
+            "numero_vuelo_operador": 1662,
+            "clase_servicio": "S",
+            "cabina": "Y",
+            "fare_basis": "SROB0MRI",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T18:20:00",
+            "fecha_hora_llegada": "2026-08-15T19:15:00",
+            "aerolinea": {
+              "codigo": "AV",
+              "operada_por": "AV",
+              "nombre_compartido": "/AVIANCA ECUADOR S.A.",
+              "alianza": "*A"
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "18:20:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "19:15:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "0h 55m",
+            "duracion_minutos": 55,
+            "millas": 169,
+            "avion": "32N",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "AV"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  },
+  {
+    "id": 5,
+    "proveedor": "sabre",
+    "id_itinerario_proveedor": "5",
+    "id_itinerario_unico": "sabre:5",
+    "precio_total": 92.89,
+    "precio_base": 63.0,
+    "impuestos": 29.89,
+    "moneda": "USD",
+    "aerolinea_validadora": "AV",
+    "ultima_fecha_compra": "2026-07-08",
+    "fare_info": [
+      {
+        "begin": "UIO",
+        "end": "GYE",
+        "fare_basis": "SROB0MRI",
+        "governing_carrier": "AV",
+        "brand_code": null,
+        "cabin": "Y",
+        "booking_code": "S",
+        "fare_amount": 49.0,
+        "fare_currency": "USD"
+      }
+    ],
+    "tramos": [
+      {
+        "tipo": "ida",
+        "fecha_salida": "2026-08-15",
+        "origen": {
+          "aeropuerto": "UIO",
+          "ciudad": "UIO",
+          "pais": "EC",
+          "hora": "08:10:00-05:00"
+        },
+        "destino": {
+          "aeropuerto": "GYE",
+          "ciudad": "GYE",
+          "pais": "EC",
+          "hora": "09:10:00-05:00"
+        },
+        "duracion_total": "1h 0m",
+        "duracion_minutos": 60,
+        "tiene_escalas": false,
+        "numero_escalas": 0,
+        "segmentos": [
+          {
+            "numero_segmento": 1,
+            "vuelo": "AV1632",
+            "numero_vuelo": 1632,
+            "numero_vuelo_operador": 1632,
+            "clase_servicio": "S",
+            "cabina": "Y",
+            "fare_basis": "SROB0MRI",
+            "fecha_salida": "2026-08-15",
+            "fecha_llegada": "2026-08-15",
+            "fecha_hora_salida": "2026-08-15T08:10:00",
+            "fecha_hora_llegada": "2026-08-15T09:10:00",
+            "aerolinea": {
+              "codigo": "AV",
+              "operada_por": "AV",
+              "nombre_compartido": "/AVIANCA ECUADOR S.A.",
+              "alianza": "*A"
+            },
+            "salida": {
+              "aeropuerto": "UIO",
+              "ciudad": "UIO",
+              "pais": "EC",
+              "hora": "08:10:00-05:00",
+              "terminal": null
+            },
+            "llegada": {
+              "aeropuerto": "GYE",
+              "ciudad": "GYE",
+              "pais": "EC",
+              "hora": "09:10:00-05:00",
+              "terminal": null,
+              "dia_siguiente": false
+            },
+            "duracion": "1h 0m",
+            "duracion_minutos": 60,
+            "millas": 169,
+            "avion": "320",
+            "paradas_intermedias": 0
+          }
+        ]
+      }
+    ],
+    "resumen": {
+      "aerolineas_ida": [
+        "AV"
+      ],
+      "aerolineas_vuelta": [],
+      "es_vuelo_directo_ida": true,
+      "es_vuelo_directo_vuelta": false
+    }
+  }
+]

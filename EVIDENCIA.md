@@ -141,7 +141,45 @@ Cubierto por 2 tests unitarios:
 
 ---
 
-## 7. Pendiente para entregar
+## 7. Deploy en Render
 
-- [ ] **Staging en Railway/Render**
-- [ ] **Documentación Capstone (.docx)** — alinear con el código real, insertar capturas
+### Backend — Producción
+| Item | Estado |
+|------|--------|
+| URL | `https://corpodg-backend-staging.onrender.com` |
+| Health check | ✅ `GET /api/health/` → OK |
+| CORS | ✅ Configurado para frontend |
+| Auth | ✅ AllowAll (TokenAuthentication eliminado) |
+| Seed ejecutado | ✅ Admin `admin` / `Admin123!`, datos Ecuador reales |
+
+### Frontend — Producción
+| Item | Estado |
+|------|--------|
+| URL | `https://proyecto-corpodg-frontend.onrender.com` |
+| SPA routing | ✅ Rewrite rules `/**` → `/index.html` |
+| API conectada | ✅ `VITE_API_URL` → backend staging |
+
+### Base de Datos
+| Item | Estado |
+|------|--------|
+| Motor | PostgreSQL 16 (Render Free Tier) |
+| Nombre | `corpodg-db-staging` |
+| Asociación | Blueprint `Staging_CORPODG_PCapstone` |
+
+---
+
+## 8. Informe de Resultados Profesional
+
+Ver `RESULTADOS_TEST.md` para el informe completo con:
+- ✅ 78 tests unitarios backend
+- ✅ 14 tests E2E frontend (Playwright)
+- ✅ Prueba de carga 100 usuarios — 0% fallos
+- ✅ Pruebas de sistema Sabre (CP-01/05/07)
+- ✅ Capturas reales del sistema (no de GitHub)
+- ✅ Reporte HTML interactivo de Playwright
+
+---
+
+## 9. Pendiente para entregar
+
+- [ ] **Documentación Capstone (.docx)** — alinear con el código real, insertar capturas de `evidencia_screenshots/` y resultados de `RESULTADOS_TEST.md`
