@@ -8,9 +8,9 @@ services:
     plan: free
     autoDeploy: true
     buildCommand: >
-      git submodule update --init --recursive &&
-      pip install -r Proyecto_CorpoDG_Backend/requirements.txt &&
-      cd Proyecto_CorpoDG_Backend && python manage.py migrate --run-syncdb
+      git submodule update --init --recursive 2>/dev/null || echo "submodules not accessible (private repos)" &&
+      cd Proyecto_CorpoDG_Backend && pip install -r requirements.txt &&
+      python manage.py migrate --run-syncdb
     startCommand: cd Proyecto_CorpoDG_Backend && gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
     healthCheckPath: /api/destinos/
 
@@ -81,29 +81,15 @@ services:
         value: "https://corpodg-frontend-staging.onrender.com/reserva/cancelada"
 
   # ============================================================
-  # Frontend - Vue 3/Vite
+  # Frontend - Vue 3/Vite (static site - create via Dashboard)
   # ============================================================
-  - type: static_site
-    name: corpodg-frontend-staging
-    runtime: static
-    plan: free
-    autoDeploy: true
-    buildCommand: >
-      git submodule update --init --recursive &&
-      cd Proyecto_CorpoDG_Frontend && npm install && npm run build
-    staticPublishPath: Proyecto_CorpoDG_Frontend/dist
-    headers:
-      - path: /**
-        name: X-Frame-Options
-        value: SAMEORIGIN
-    routes:
-      - type: rewrite
-        source: /**
-        destination: /index.html
-
-    envVars:
-      - key: VITE_API_URL
-        value: "https://corpodg-backend-staging.onrender.com/api"
+  # NOTA: Render Blueprint no soporta static_site.
+  # Crearlo manualmente en el Dashboard:
+  # 1. New Static Site -> conectar repositorio
+  # 2. Branch: feat/gabriel/chatbot_v2
+  # 3. Build: cd Proyecto_CorpoDG_Frontend && npm install && npm run build
+  # 4. Publish: Proyecto_CorpoDG_Frontend/dist
+  # 5. Env: VITE_API_URL = https://corpodg-backend-staging.onrender.com/api
 
 # ============================================================
 # Database - PostgreSQL 16 (free tier)
