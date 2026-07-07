@@ -4,11 +4,14 @@ services:
     runtime: python
     plan: free
     autoDeploy: true
-    buildCommand: >
+    buildCommand: |
       git submodule update --init --recursive &&
-      cd Proyecto_CorpoDG_Backend && pip install -r requirements.txt &&
+      cd Proyecto_CorpoDG_Backend &&
+      pip install -r requirements.txt &&
       python manage.py migrate --run-syncdb
-    startCommand: cd Proyecto_CorpoDG_Backend && gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
+    startCommand: |
+      cd Proyecto_CorpoDG_Backend &&
+      gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
     healthCheckPath: /api/destinos/
     envVars:
       - key: PYTHON_VERSION
