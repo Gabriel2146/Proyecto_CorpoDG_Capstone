@@ -1,6 +1,6 @@
 [submodule "Proyecto_CorpoDG_Backend"]
 	path = Proyecto_CorpoDG_Backend
-	url = https://github.com/MiltonDavila123/Proyecto_CorpoDG_Backend.git
+	url = https://github.com/Gabriel2146/Proyecto_CorpoDG_Backend.git
 [submodule "Proyecto_CorpoDG_Frontend"]
 	path = Proyecto_CorpoDG_Frontend
-	url = https://github.com/MiltonDavila123/Proyecto_CorpoDG_Frontend.git
+	url = https://github.com/Gabriel2146/Proyecto_CorpoDG_Frontend.git

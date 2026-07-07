@@ -5,6 +5,7 @@ services:
     plan: free
     autoDeploy: true
     buildCommand: >
+      git submodule update --init --recursive &&
       cd Proyecto_CorpoDG_Backend && pip install -r requirements.txt &&
       python manage.py migrate --run-syncdb
     startCommand: cd Proyecto_CorpoDG_Backend && gunicorn corpodg.wsgi:application --bind 0.0.0.0:$PORT --workers 2
