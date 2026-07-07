@@ -84,4 +84,3 @@ databases:
     databaseName: corpodg_staging
     user: corpodg_user
     plan: free
-    version: "16"
