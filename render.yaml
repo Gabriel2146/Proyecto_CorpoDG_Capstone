@@ -21,7 +21,7 @@ services:
       - key: ALLOWED_HOSTS
         value: ".onrender.com,localhost"
       - key: CORS_ALLOWED_ORIGINS
-        value: "https://corpodg-frontend-staging.onrender.com"
+        value: "https://proyecto-corpodg-frontend.onrender.com,https://corpodg-frontend-staging.onrender.com"
       - key: DB_ENGINE
         value: django.db.backends.postgresql
       - key: DB_NAME
@@ -75,9 +75,9 @@ services:
       - key: WHATSAPP_RECIPIENT_NUMBER
         sync: false
       - key: FRONTEND_BOOKING_SUCCESS_URL
-        value: "https://corpodg-frontend-staging.onrender.com/reserva/confirmada"
+        value: "https://proyecto-corpodg-frontend.onrender.com/reserva/confirmada"
       - key: FRONTEND_BOOKING_CANCEL_URL
-        value: "https://corpodg-frontend-staging.onrender.com/reserva/cancelada"
+        value: "https://proyecto-corpodg-frontend.onrender.com/reserva/cancelada"
 
 databases:
   - name: corpodg-db-staging
