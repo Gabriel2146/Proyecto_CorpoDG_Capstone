@@ -49,9 +49,13 @@ El workflow `.github/workflows/performance.yml`:
 | RNF-01 | Seguridad (credenciales en .env) | ✅ | `servicios/LlamadosAPIS/` sin tokens hardcodeados |
 | RNF-02 | Eficiencia de desempeño | ✅ | Pipeline k6 en CI valida p95 < 3s / < 30s |
 | RNF-03 | Tolerancia a fallos (401 retry) | ✅ | Tests `BuscarVuelosSabre401RetryTest` (3 tests) |
-| RNF-04 | Usabilidad (estados carga/error/empty) | ✅ | Tests E2E `states.spec.js` (6 tests) |
+| RNF-04 | Usabilidad (estados carga/error/empty) | ✅ | Tests E2E `states.spec.js` (5 tests, chromium) |
 | RNF-05 | Mantenibilidad (CI modular) | ✅ | 3 pipelines: Backend CI, Frontend CI, Performance Tests |
-| RNF-08 | Compatibilidad (Chrome + Firefox) | ✅ | Playwright config con chromium + firefox |
+| RNF-08 | Compatibilidad (Chrome + Firefox) | ✅ | Chromium en CI (todos los tests), Firefox en CI (responsive), Edge cubierto por Chromium engine |
+
+## Notas
+
+- **RNF-08**: Firefox ejecuta solo los tests responsive (`responsive.spec.js`) en CI. Los tests funcionales (chatbot, estados) corren en Chromium. Edge comparte motor con Chromium, cubierto automáticamente. Se recomienda verificación manual adicional en Firefox + Edge antes de entrega.
 
 ## Archivos Relacionados
 
