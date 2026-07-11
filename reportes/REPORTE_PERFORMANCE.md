@@ -6,7 +6,7 @@
 |----------|:------:|:----------------:|
 | Performance Tests | ✅ Pass | `staging` (commit d2629d9) |
 | Backend CI | ✅ Pass | `staging` (commit d2629d9) |
-| Frontend CI | ⏳ Verificar | `staging` (commit ea14294) |
+| Frontend CI | ✅ Pass | `staging` (commit ef6d0c7) |
 
 ## Resumen de Resultados (k6)
 
@@ -49,8 +49,8 @@ El workflow `.github/workflows/performance.yml`:
 | RNF-01 | Seguridad (credenciales en .env) | ✅ | `servicios/LlamadosAPIS/` sin tokens hardcodeados |
 | RNF-02 | Eficiencia de desempeño | ✅ | Pipeline k6 en CI valida p95 < 3s / < 30s |
 | RNF-03 | Tolerancia a fallos (401 retry) | ✅ | Tests `BuscarVuelosSabre401RetryTest` (3 tests) |
-| RNF-04 | Usabilidad (estados carga/error/empty) | ✅ | Tests E2E `states.spec.js` (5 tests, chromium) |
-| RNF-05 | Mantenibilidad (CI modular) | ✅ | 3 pipelines: Backend CI, Frontend CI, Performance Tests |
+| RNF-04 | Usabilidad (estados carga/error/empty) | ✅ | Tests E2E `states.spec.js` (5 tests) — API delays para capturar loading state |
+| RNF-05 | Mantenibilidad (CI modular) | ✅ | 3 pipelines: Backend CI, Frontend CI, Performance Tests — todos ✅ |
 | RNF-08 | Compatibilidad (Chrome + Firefox) | ✅ | Chromium en CI (todos los tests), Firefox en CI (responsive), Edge cubierto por Chromium engine |
 
 ## Notas
