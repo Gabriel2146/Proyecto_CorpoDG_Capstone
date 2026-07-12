@@ -125,7 +125,7 @@
 **Puntos técnicos para reforzar durante la demo:**
 
 - **Retry 401**: "Las llamadas a Sabre tienen retry automático. Si el token expira, se refresca y reintenta automáticamente antes de devolver error."
-- **Restricción de dominio**: "El system prompt de Cory limita explícitamente las respuestas al dominio de turismo de CorpoDG, usando function calling para consultar la base de datos."
+- **Restricción de dominio**: "El system prompt de Cory limita explícitamente las respuestas al dominio de turismo de CorpoDG, usando function calling para consultar el GDS directamente."
 - **Seguridad de credenciales**: "Todas las claves API se manejan mediante variables de entorno con python-decouple. El código fuente contiene solo placeholders."
 
 ---
@@ -184,7 +184,7 @@
 
 **11. ¿Qué metodología usaron y cómo la adaptaron?**
 
-> "Scrum, adaptado a equipo unipersonal. Trabajamos en 5 sprints con objetivos claros. Usamos GitHub Issues como product backlog y GitHub Projects como tablero. Las daily scrums eran auto-gestionadas. Cada sprint terminaba con un incremento funcional desplegado en staging."
+> "Scrum, adaptado a equipo unipersonal. Trabajamos en 5 sprints con objetivos claros. Usamos GitHub Issues como product backlog y Jira tablero. Las daily scrums eran auto-gestionadas. Cada sprint terminaba con un incremento funcional desplegado en staging."
 
 **12. ¿Qué excluyeron del alcance y por qué?**
 
