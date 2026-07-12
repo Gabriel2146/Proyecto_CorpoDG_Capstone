@@ -1,48 +1,41 @@
 # CorpoDG Trip593 — Plataforma de Viajes
 
-Sistema web para la agencia de viajes **CorpoDG Trip593** que integra un catálogo de destinos turísticos, paquetes vacacionales, reservas con Sabre GDS, pagos con Stripe y un asistente IA (Cory) vía Groq.
+Monorepo contenedor del sistema web de **CorpoDG Trip593**, agencia ecuatoriana de viajes. Integra catálogo de destinos y paquetes turísticos, reservas de vuelos en vivo con Sabre GDS, pagos con Stripe, y asistente IA (Cory).
 
-## Estructura
+| Submódulo | Stack | URL |
+|-----------|-------|-----|
+| `Proyecto_CorpoDG_Backend` | Django 6.0 + DRF + PostgreSQL | [github.com/Gabriel2146/Proyecto_CorpoDG_Backend](https://github.com/Gabriel2146/Proyecto_CorpoDG_Backend) |
+| `Proyecto_CorpoDG_Frontend` | Vue 3 + Vite + Playwright | [github.com/Gabriel2146/Proyecto_CorpoDG_Frontend](https://github.com/Gabriel2146/Proyecto_CorpoDG_Frontend) |
 
-| Repositorio | Stack | URL |
-|-------------|-------|-----|
-| `Proyecto_CorpoDG_Backend` | Django REST + PostgreSQL + Sabre GDS + Stripe | [Backend repo](https://github.com/Gabriel2146/Proyecto_CorpoDG_Backend) |
-| `Proyecto_CorpoDG_Frontend` | Vue 3 + Vite + Playwright | [Frontend repo](https://github.com/Gabriel2146/Proyecto_CorpoDG_Frontend) |
-
-## Quick Start
-
-### Backend
+## Inicio rápido
 
 ```bash
+git clone --recurse-submodules https://github.com/Gabriel2146/Proyecto_CorpoDG_Capstone.git
+cd Proyecto_CorpoDG_Capstone
+
+# Backend
 cd Proyecto_CorpoDG_Backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py seed_data
 python manage.py runserver
-```
 
-### Frontend
-
-```bash
+# Frontend (otra terminal)
 cd Proyecto_CorpoDG_Frontend
 npm install
 npm run dev
 ```
 
-## Características principales
+## Funcionalidades principales
 
-- Catálogo de destinos y paquetes turísticos con imágenes Unsplash
-- Búsqueda y reserva de vuelos en tiempo real vía Sabre GDS
-- Pagos con Stripe
-- Asistente virtual Cory con IA (Groq, function calling, WhatsApp)
-- Panel admin Django para gestión de contenido
-- CI/CD con GitHub Actions + Playwright E2E + k6 performance tests
-- Despliegue en Render (backend + PostgreSQL)
+- **Catálogo turístico** — 10 regiones, destinos, paquetes con imágenes Unsplash
+- **Vuelos en vivo** — búsqueda y reserva vía Sabre GDS (API certificada)
+- **Pagos** — checkout con Stripe + webhooks + vouchers PDF
+- **Asistente Cory** — chatbot con IA (Groq, function calling, WhatsApp)
+- **Admin Django** — panel con jazzmin para gestión de contenido
+- **CI/CD** — GitHub Actions + Playwright E2E + k6 performance tests
+- **Despliegue** — Render (backend Gunicorn + PostgreSQL, frontend Nginx)
 
-## Despliegue
+## Arquitectura
 
-El proyecto se despliega automáticamente en Render desde la rama `staging`:
-- **Backend**: `corpodg-backend-staging` (Gunicorn)
-- **Frontend**: `proyecto-corpodg-frontend` (Nginx static)
-
-Ver `render.yaml` para configuración completa.
+El frontend Vue 3 consume la API REST del backend Django. El backend orquesta llamadas a Sabre GDS (vuelos), Stripe (pagos), Groq (chatbot IA) y WhatsApp (notificaciones). La base de datos PostgreSQL contiene catálogo, clientes y reservas.
