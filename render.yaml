@@ -51,13 +51,17 @@ services:
       - key: SEATMAP_SANDBOX
         value: "1"
       - key: BOOKING_SEND_EMAIL
-        value: "0"
+        value: "1"
       - key: SABRE_AUTH_URL
         value: "https://api.cert.platform.sabre.com/v2/auth/token"
       - key: CLIENT_ID
         value: "V1:9tho7sxqg11a3rb7:DEVCENTER:EXT"
       - key: CLIENT_SECRET
         value: "pG9hBVv4"
+      - key: EMAIL_HOST_USER
+        sync: false
+      - key: EMAIL_HOST_PASSWORD
+        sync: false
       - key: STRIPE_SECRET_KEY
         sync: false
       - key: STRIPE_PUBLISHABLE_KEY
